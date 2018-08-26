@@ -17,3 +17,9 @@ generateiobb("https://www.nike.com/launch/t/air-jordan-3-white-white/","http://u
 ```
 
 The first variable is the URL of the page where snare.js is being loaded, the second variable is the proxy.
+
+## Update
+
+I have added iOS device fingerprint generator. Its for Iovation iOS SDK version 4.3.0, the same one used in Nike's SNKRS iOS app. Currently the script has some pre-populated fields about the device that was used to generate a sample device id. Those fields are at the beginning of the script and should be changed according to the country and the device its supposed to imitate.
+
+There is also detailed description of the information the fingerprint contains.
