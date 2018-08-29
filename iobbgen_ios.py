@@ -99,5 +99,5 @@ def generatefingerprint():
 		val=data[p]
 		q.append("{0:04X}".format(len(val)))
 		q.append(val)
-	return "0500"+encrypt("".join(q),'\x10\xc5\x14\xfb\xca\xabn=\xcd\x9dF\xb2\x0b\xd4\x03\x05\x88:\xf2J\r\x86#x\x0e\xc4CI\xc6\xa6*p',True).replace("/","\\/")
+	return "0500"+encrypt("".join(q),'\x10\xc5\x14\xfb\xca\xabn=\xcd\x9dF\xb2\x0b\xd4\x03\x05\x88:\xf2J\r\x86#x\x0e\xc4CI\xc6\xa6*p',True)
 KEYS=['BBSC', 'BBRT', 'SDKVER', 'SDKBN', 'CLIENT_TIME', 'NETS', 'PROX', 'CDTOKEN', 'IAOR', 'SSID', 'BATL', 'CARNC', 'LSEN', 'KERV', 'CARCC', 'UPTIME', 'AID', 'CPU', 'PHYMEM', 'TZ', 'OS', 'KCSTAG', 'MODEL', 'ICTKN', 'LANG', 'ISBRT', 'APPV', 'FSSZ', 'BSSID', 'APPN', 'APPID', 'KCITOKEN', 'ICVOIP', 'JAIL', 'PRON', 'CURR', 'CARMC', 'CARN', 'EXEN', 'SIM', 'IDOR', 'RES', 'IDM', 'CPUCNT', 'VID', 'UPITOKEN', 'ASTOKEN', 'PLUG', 'IDN', 'DEBUG', 'OSVER']
